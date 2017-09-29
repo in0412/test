@@ -8,7 +8,7 @@ public class HelloApp {
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("beans.xml");
 		MessageBean bean = (MessageBean)ctx.getBean("messageBean");
 		
-		bean.sayHello("git Spring");
+		bean.sayHello("Spring");
 				
 		
 	}
